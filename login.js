@@ -1,9 +1,10 @@
+//Import constant.js
 import {
   QUESTIONS,
   XC_TOKEN,
   USER_TABLE_ID,
   LEADERBOARD_TABLE_ID,
-} from "./constants.js";
+} from "/etc/secrets/constants.js";
 
 $(document).ready(function () {
   var loginModule = (function () {

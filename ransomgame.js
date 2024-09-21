@@ -4,7 +4,7 @@ import {
   XC_TOKEN,
   USER_TABLE_ID,
   LEADERBOARD_TABLE_ID,
-} from "./constants.js";
+} from "/etc/secrets/constants.js";
 
 let currentStage = 0;
 let score = 0;
